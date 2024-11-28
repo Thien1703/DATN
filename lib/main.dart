@@ -1,7 +1,5 @@
 import 'package:datn/screens/auth/forgotPassword_screen.dart';
-import 'package:datn/screens/auth/login_body.dart';
-import 'package:datn/screens/auth/login_screen.dart';
-import 'package:datn/screens/auth/register_screen.dart';
+import 'package:datn/screens/auth/newPassword_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -36,7 +34,7 @@ class MyApp extends StatelessWidget {
       // useMaterial3: true,
       // ),
       // home: const MyHomePage(title: 'Flutter Demo Home Page'),
-      home: ForgotpasswordScreen(),
+      home: NewpasswordScreen(),
     );
   }
 }
