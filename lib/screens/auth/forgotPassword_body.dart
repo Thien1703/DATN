@@ -44,12 +44,16 @@ class _ForgotpasswordBodyState extends State<ForgotpasswordBody> {
           const SizedBox(height: 40),
           // Button 'Next Step'
           CustomButton(
+            width: 169,
+            height: 32,
             text: "Next Step",
             onPressed: () {}, // Thêm chức năng xử lý đăng nhập
           ),
           const SizedBox(height: 80),
           // Button 'Sign Up'
           CustomButton(
+            width: 169,
+            height: 32,
             text: "Sign Up",
             onPressed: () {}, // Thêm chức năng đăng ký
             backgroundColor: const Color(0xFFDFF7E2), // Nền xanh nhạt
